@@ -30,14 +30,6 @@ export default function HeroSection() {
       </div>
       
       <div className="w-full max-w-lg mx-auto text-center space-y-6 relative z-10">
-        {/* Scarcity Badge */}
-        <Badge 
-          className="bg-gradient-to-r from-red-500 to-orange-500 text-white px-4 py-2 text-sm font-bold border-0 shadow-lg border-2 border-red-400"
-          data-testid="badge-scarcity"
-        >
-          🔥 Only 5 Spots Left This Month
-        </Badge>
-        
         {/* Live Stats */}
         <div className="flex justify-center gap-4 text-xs text-slate-600">
           <div className="flex items-center gap-1">
